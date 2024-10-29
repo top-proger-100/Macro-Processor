@@ -1,0 +1,13 @@
+start: 
+  mov bx, 1
+  mul bx
+  mov cx, ax
+  mov bx, 4
+  div bx
+  add ax, 9
+  add ax, 1
+  add ax, 2
+  add ax, 3
+  sub ax, 4
+  sub ax, 5
+end start
